@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    @font-face {
+        font-family: iranyekan;
+        src: url("/fonts/iranyekan/Qs_Iranyekan\ extrabold.ttf")
+            format("truetype");
+        font-weight: 900;
+        font-style: normal;
+    }
+
+    @font-face {
+        font-family: iranyekan;
+        src: url("/fonts/iranyekan/Qs_Iranyekan\ medium.ttf") format("truetype");
+        font-weight: 500;
+        font-style: normal;
+    }
+
+    @font-face {
+        font-family: iranyekan;
+        src: url("/fonts/iranyekan/Qs_Iranyekan\ bold.ttf") format("truetype");
+        font-weight: 700;
+        font-style: normal;
+    }
+
+    * {
+        margin: 0;
+        box-sizing: border-box;
+        font-family: iranyekan;
+    }
+
+    html,
+    body,
+    #root {
+        width: 100vw;
+        height: 100vh;
+        background-color: #fafbfc;
+        overflow: hidden;
+    }
+}
